@@ -6,7 +6,7 @@ export function AboutSection() {
     {
       icon: <BarChart className="h-8 w-8 text-primary" />,
       title: '키노트 & 세션',
-      description: 'AI 시대의 개발자 성장과 커뮤니티의 역할에 대한 깊이 있는 인사이트를 공유합니다.',
+      description: 'AI 시대의 개발자 성장, 커뮤니티의 역할에 대한 인사이트를 공유하고 다가올 DevFest 계획을 함께 세우고 공유합니다.',
     },
     {
       icon: <Code className="h-8 w-8 text-green-400" />,
