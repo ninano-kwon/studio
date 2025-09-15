@@ -10,6 +10,8 @@ export function HeroSection() {
       </h1>
       <p className="mt-6 text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto">
         AI 시대, 개발자 커뮤니티는 어떻게 개발자의 성장을 이끌 수 있을까요?
+        <br />
+        GDG 운영진, GDE들을 위한 알찬 세션과 교류의 장에 오신 것을 환영합니다!
       </p>
       <div className="mt-8">
         <div className="inline-block bg-card/50 rounded-lg p-6 shadow-md">
