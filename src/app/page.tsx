@@ -3,11 +3,9 @@ import { HeroSection } from '@/components/hero-section';
 import { AboutSection } from '@/components/about-section';
 import { PrerequisitesSection } from '@/components/prerequisites-section';
 import { ScheduleSection } from '@/components/schedule-section';
-import { PersonalizedSchedule } from '@/components/personalized-schedule';
 import { EventsSection } from '@/components/events-section';
 import { LocationSection } from '@/components/location-section';
 import { Footer } from '@/components/footer';
-import { Separator } from '@/components/ui/separator';
 
 export default function Home() {
   return (
@@ -18,9 +16,6 @@ export default function Home() {
         <AboutSection />
         <PrerequisitesSection />
         <ScheduleSection />
-        <div className="py-16">
-          <PersonalizedSchedule />
-        </div>
         <EventsSection />
         <LocationSection />
       </main>
