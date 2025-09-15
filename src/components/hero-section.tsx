@@ -9,7 +9,7 @@ export function HeroSection() {
         </span>
       </h1>
       <p className="mt-6 text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto">
-        AI 시대, 커뮤니티가 개발자 성장을 이끄는 법. GDG 운영진과 GDE를 위한 교류와 성장의 장에 오신 것을 환영합니다.
+        AI 시대, 개발자 커뮤니티는 어떻게 개발자의 성장을 이끌 수 있을까요?
       </p>
       <div className="mt-8">
         <div className="inline-block bg-card/50 rounded-lg p-6 shadow-md">
