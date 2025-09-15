@@ -4,7 +4,7 @@ export function HeroSection() {
   return (
     <section className="text-center py-20 md:py-32">
       <h1 className="text-5xl md:text-7xl font-black tracking-tight leading-tight">
-        <span className="bg-gradient-to-r from-[#4285F4] via-[#34A853] via-[#FBBC05] to-[#EA4335] bg-clip-text text-transparent">
+        <span className="bg-gradient-to-r from-[#4285F4] via-[#9B72FF] to-[#F6903D] bg-clip-text text-transparent">
           '25 Korea Developer Community Summit
         </span>
       </h1>
