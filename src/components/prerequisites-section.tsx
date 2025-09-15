@@ -18,7 +18,7 @@ export function PrerequisitesSection() {
           </CardHeader>
           <CardContent className="space-y-2">
             <p className="font-semibold">개인 노트북 & 충전기</p>
-            <p className="text-sm text-muted-foreground">(Day 1 핸즈온, Day 2 미니 해커톤에 필요)</p>
+            <p className="text-sm text-muted-foreground">1일차 핸즈온 세션, 2일차 미니 해커톤에 필요합니다.</p>
           </CardContent>
         </Card>
         <Card className="bg-muted border-border/50 transition-all duration-300 ease-in-out hover:shadow-blue-400/20 hover:-translate-y-1">
