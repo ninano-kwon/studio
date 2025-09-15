@@ -48,7 +48,7 @@ export function PrerequisitesSection() {
           <CardContent className="space-y-2 text-sm">
             <p><b>주제:</b> 올해 DevFest 오프닝이나 홍보에서 활용 가능한 영상</p>
             <p><b>방법:</b> Flow 나 Gemini에서 Veo 3를 활용하여 GDG 챕터/GDE의 Identity가 잘 드러나는 영상 제작</p>
-            <p><b>분량:</b> 8초-2분</p>
+            <p><b>분량:</b> 최소 8초 - 최대 2분</p>
             <p><b>마감:</b> 9월 18일(목)까지</p>
             <p className="text-yellow-400 font-bold">🏆 우수작 상품 증정!</p>
           </CardContent>
