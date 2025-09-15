@@ -29,7 +29,11 @@ export function PrerequisitesSection() {
             </CardTitle>
           </CardHeader>
           <CardContent className="space-y-2">
-            <p className="font-semibold">GDP Premium 가입</p>
+            <p className="font-semibold">
+              <a href="https://communityleads.dev/home/google-developer-program" target="_blank" rel="noopener noreferrer" className="underline hover:text-primary/80">
+                GDP Premium
+              </a> 가입
+            </p>
             <p className="text-sm text-muted-foreground">(문제 발생 시, 운영진에게 문의)</p>
           </CardContent>
         </Card>
