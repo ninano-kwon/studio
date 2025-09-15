@@ -35,7 +35,7 @@ export function PrerequisitesSection() {
               </a>
               {' '}가입하기
             </p>
-            <p className="text-sm text-muted-foreground">(문제 발생 시, 운영진에게 문의)</p>
+            <p className="text-sm text-muted-foreground">가입 중 이슈를 겪는다면, gdg-support@google.com 로 겪고 계신 문제와 함께 커뮤니티 매니저 cc해서 문의해주세요.</p>
           </CardContent>
         </Card>
         <Card className="bg-muted border-border/50 transition-all duration-300 ease-in-out hover:shadow-green-400/20 hover:-translate-y-1">
