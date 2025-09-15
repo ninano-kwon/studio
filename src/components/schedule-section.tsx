@@ -1,10 +1,7 @@
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { day1Schedule, day2Schedule } from '@/data/schedule';
 import type { ScheduleItem } from '@/data/schedule';
-import { Clock, MessageSquarePlus } from 'lucide-react';
-import { SessionFeedback } from './session-feedback';
-import { Button } from './ui/button';
-import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from './ui/dialog';
+import { Clock } from 'lucide-react';
 
 const ScheduleTimeline = ({ items, day }: { items: ScheduleItem[], day: string }) => (
   <div className="space-y-4">
@@ -14,23 +11,7 @@ const ScheduleTimeline = ({ items, day }: { items: ScheduleItem[], day: string }
           <Clock className="h-4 w-4" />
           {item.time}
         </div>
-        <div className="col-span-2 md:col-span-3 text-base md:text-lg">{item.title}</div>
-        <div className="col-span-1 text-right">
-          <Dialog>
-            <DialogTrigger asChild>
-              <Button variant="ghost" size="sm">
-                <MessageSquarePlus className="h-4 w-4 mr-2" />
-                피드백
-              </Button>
-            </DialogTrigger>
-            <DialogContent>
-              <DialogHeader>
-                <DialogTitle>피드백 남기기: {item.title}</DialogTitle>
-              </DialogHeader>
-              <SessionFeedback sessionTitle={item.title} />
-            </DialogContent>
-          </Dialog>
-        </div>
+        <div className="col-span-3 md:col-span-4 text-base md:text-lg">{item.title}</div>
       </div>
     ))}
   </div>
