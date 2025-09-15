@@ -1,6 +1,5 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Laptop, Rocket, Film } from 'lucide-react';
-import { VeoSummary } from './veo-summary';
 
 export function PrerequisitesSection() {
   return (
@@ -48,9 +47,6 @@ export function PrerequisitesSection() {
             <p className="text-yellow-400 font-bold">🏆 우수작 상품 증정!</p>
           </CardContent>
         </Card>
-      </div>
-      <div className="mt-8">
-        <VeoSummary />
       </div>
     </section>
   );
