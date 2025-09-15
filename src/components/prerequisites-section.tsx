@@ -13,7 +13,7 @@ export function PrerequisitesSection() {
           <CardHeader>
             <CardTitle className="flex items-center gap-2 text-red-400">
               <Laptop className="h-6 w-6" />
-              필수 지참물
+              필수 준비물
             </CardTitle>
           </CardHeader>
           <CardContent className="space-y-2">
