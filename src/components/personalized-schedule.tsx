@@ -1,6 +1,7 @@
 'use client';
 
-import { useFormState, useFormStatus } from 'react-dom';
+import { useActionState } from 'react';
+import { useFormStatus } from 'react-dom';
 import { createPersonalizedSchedule, type ScheduleState } from '@/lib/actions';
 import { Button } from '@/components/ui/button';
 import { Label } from '@/components/ui/label';
@@ -22,7 +23,7 @@ function SubmitButton() {
 
 export function PersonalizedSchedule() {
   const initialState: ScheduleState = { message: null, errors: {} };
-  const [state, dispatch] = useFormState(createPersonalizedSchedule, initialState);
+  const [state, dispatch] = useActionState(createPersonalizedSchedule, initialState);
   const { toast } = useToast();
 
   useEffect(() => {
