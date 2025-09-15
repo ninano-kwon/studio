@@ -11,7 +11,7 @@ export function AboutSection() {
     {
       icon: <Code className="h-8 w-8 text-green-400" />,
       title: '미니 해커톤',
-      description: 'GDG 글로벌 캠페인과 연계된 주제로, 최신 구글 기술을 활용해 아이디어를 실현합니다.',
+      description: 'Firebase Studio 및 구글 기술을 활용하여 다가올 DevFest를 더 원활하게 준비할 수 있는 아이디어를 실현합니다.',
     },
     {
       icon: <Users className="h-8 w-8 text-yellow-400" />,
