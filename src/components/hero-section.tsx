@@ -15,7 +15,7 @@ export function HeroSection() {
       </p>
       <div className="mt-8">
         <div className="inline-block bg-card/50 rounded-lg p-6 shadow-md">
-          <p className="text-2xl font-bold">2025년 9월 20일 ~ 21일</p>
+          <p className="text-2xl font-bold">2025년 9월 20일(토) - 2025년 9월 21일(일)</p>
           <p className="text-lg text-primary">@ 구글 스타트업 캠퍼스</p>
         </div>
       </div>
