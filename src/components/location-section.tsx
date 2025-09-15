@@ -35,7 +35,7 @@ export function LocationSection() {
               <ul className="list-disc list-inside text-muted-foreground space-y-2">
                 <li>지방 참가자 교통편 지원 (사전 신청자 대상)</li>
                 <li>사전 신청자 숙박 지원 (GLAD 강남 코엑스 센터)</li>
-                <li className="font-bold text-red-400 flex items-center gap-2">
+                <li className="font-bold text-destructive flex items-center gap-2">
                   <ParkingCircleOff className="h-4 w-4" />
                   행사 장소 주차는 지원되지 않습니다.
                 </li>
