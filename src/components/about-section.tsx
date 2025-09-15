@@ -16,7 +16,7 @@ export function AboutSection() {
     {
       icon: <Users className="h-8 w-8 text-yellow-400" />,
       title: '네트워킹',
-      description: '전국의 GDG 운영진, GDE와 교류하며 커뮤니티의 미래를 함께 그려나갑니다.',
+      description: '전국의 GDG 운영진, GDE와 교류하며 다가올 DevFest를 함께 계획하고 공유합니다.',
     },
   ];
 
