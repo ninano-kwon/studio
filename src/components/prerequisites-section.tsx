@@ -31,9 +31,9 @@ export function PrerequisitesSection() {
           <CardContent className="space-y-2">
             <p className="font-semibold">
               <a href="https://communityleads.dev/home/google-developer-program" target="_blank" rel="noopener noreferrer" className="underline hover:text-primary/80">
-                GDP Premium (클릭)
+                GDP Premium(클릭)
               </a>
-               가입하기
+              {' '}가입하기
             </p>
             <p className="text-sm text-muted-foreground">(문제 발생 시, 운영진에게 문의)</p>
           </CardContent>
