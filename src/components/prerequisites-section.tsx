@@ -42,7 +42,7 @@ export function PrerequisitesSection() {
           <CardHeader>
             <CardTitle className="flex items-center gap-2 text-green-400">
               <Film className="h-6 w-6" />
-              사전 과제: Veo 영상 제작
+              사전 과제: Veo 3를 활용한 영상 제작
             </CardTitle>
           </CardHeader>
           <CardContent className="space-y-2 text-sm">
