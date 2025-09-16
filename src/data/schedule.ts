@@ -27,7 +27,7 @@ export const day1Schedule: ScheduleItem[] = [
     title: 'AI시대, 인공지능을 활용한 마케팅 전략',
     englishTitle: 'Marketing Strategies Using Artificial Intelligence in the AI Era',
     speaker: '주은실',
-    description: 'AI를 활용하여 커뮤니티 홍보 및 이벤트 마케팅을 효과적으로 수행하는 전략을 배웁니다. 타겟 분석, 콘텐츠 생성, 성과 측정 등 마케팅 전반에 AI를 적용하는 방법을 알아봅니다.',
+    description: 'AI를 활용하여 커뮤니티 홍보 및 이벤트 마케팅을 효과적으로 수행하는 전략을 배웁니다. 마케팅 전반에 AI를 적용하는 방법을 알아봅니다.',
   },
   {
     time: '11:45-12:45',
