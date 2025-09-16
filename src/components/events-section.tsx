@@ -24,7 +24,7 @@ export function EventsSection() {
             </div>
             <div className="mt-6">
               <h3 className="font-bold flex items-center gap-2 mb-2"><Award className="h-5 w-5" />상품</h3>
-              <p className="text-foreground">🥇 1등: 갤럭시 워치 8</p>
+              <p className="text-foreground">🥇 1등: 갤럭시 워치 8 (44mm, 블루투스)</p>
               <p className="text-foreground">🥈 2등: 갤럭시 버즈 프로 3</p>
             </div>
           </CardContent>
