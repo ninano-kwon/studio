@@ -69,7 +69,7 @@ export const day1Schedule: ScheduleItem[] = [
     speaker: 'GDG 운영진, GDE',
     description: [
       {
-        talkTitle: '함께하는 오픈소스 기여, 커뮤니티, 문화 만들기 with AI - 김인제, GDG Incheon',
+        talkTitle: '함께하는 오픈소스 기여, 커뮤니티, 문화 만들기 with AI - 김인제, GDG 인천',
         talkDescription: '누구나 원하는 오픈소스에 기여할 수 있게 도와주는 오픈소스 기여모임을 2년간 9기째 운영하며 500명 넘는 분들의 기여를 도와 천개 넘는 PR을 함께 만들고 국내 기여 문화를 만들어가는 이야기',
       },
       {
@@ -80,7 +80,7 @@ export const day1Schedule: ScheduleItem[] = [
         talkDescription: '대부분의 핸즈온에서는 새로운 기술을 배우고 실습해보는 것에 초점이 맞춰져 있습니다. 하지만 행사 컨셉과 참가자 특성에 맞게 핸즈온을 색다르게 기획하고 준비했던 GDG Campus Korea의 사례들을 공유합니다.',
       },
       {
-        talkTitle: 'Gemini CLI와 BMAD 를 활용한 multi agent workflow 활용법 - 이재규, GDG Golang Korea',
+        talkTitle: 'Gemini CLI와 BMAD 를 활용한 multi agent workflow 활용법 - 이재규, GDG 고 언어',
         talkDescription: '두 개의 인터페이스, 하나의 강력한 모델. Gemini의 강력한 두 가지 인터페이스(Gemini Gem 웹 UI와 Gemini CLI)를 BMad 프레임워크와 결합하여, 아이디어 구상부터 코드 구현까지의 전체 개발 과정을 혁신하는 과정을 소개합니다.',
       }
     ],
@@ -108,6 +108,7 @@ export const day1Schedule: ScheduleItem[] = [
 
 오피스 아워 사전 신청자는 행사장 한쪽에서 진행되는 Alessandro와의 오피스아워에 참여합니다.
 
+주제 : Platforms (Bevy, Advocu, Work Trips/Travel Program) and Google Developer Programs
 그룹 1 : 이준범, 박제창
 그룹 2 : 김수빈, 이재규
 그룹 3 : 고영민, 김마로, 조새벽
