@@ -2,7 +2,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { day1Schedule, day2Schedule } from '@/data/schedule';
 import type { ScheduleItem } from '@/data/schedule';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
-import { Clock, Info } from 'lucide-react';
+import { Clock, Info, ChevronDown } from 'lucide-react';
 import { HackathonTeams } from './hackathon-teams';
 
 const ScheduleTimeline = ({ items, day }: { items: ScheduleItem[]; day: string }) => (
@@ -22,11 +22,15 @@ const ScheduleTimeline = ({ items, day }: { items: ScheduleItem[]; day: string }
                 <p>{item.title}</p>
                 {item.englishTitle && <p className="text-sm text-muted-foreground">{item.englishTitle}</p>}
               </div>
-              {item.speaker && (
+              {item.speaker ? (
                 <div className="col-span-4 md:col-span-1 text-sm text-muted-foreground flex flex-row-reverse md:flex-col items-center justify-start md:justify-center gap-2 mt-2 md:mt-0 text-right md:text-center ml-auto">
                   <span>{item.speaker}</span>
                 </div>
-              )}
+              ) : item.id === 'hackathon' ? (
+                <div className="col-span-4 md:col-span-1 text-sm text-muted-foreground flex items-center justify-end gap-1">
+                  <span>팀 구성 자세히 보기</span>
+                </div>
+              ) : null}
             </AccordionTrigger>
             <AccordionContent className="pb-4 px-4">
               <div className="text-muted-foreground pl-10 space-y-4">
