@@ -49,7 +49,17 @@ export const day1Schedule: ScheduleItem[] = [
     title: 'GDG 운영진, GDE의 Lightning Talks',
     englishTitle: 'Lightning Talks from GDG Organizers & GDEs',
     speaker: 'GDG 운영진, GDE',
-    description: '[Lightning Talks] 함께하는 오픈소스 기여, 커뮤니티, 문화 만들기 with AI\n- 김인제, GDG Incheon\n\n[Lightning Talks] Gemini로 코딩하기\n- 신정규, AI GDE\n\n[Lightning Talks] 우리 핸즈온, 행사마다 색다르게 해보면 어떨까?\n- 김대현, GDG Campus Korea\n\n[Lightning Talks] Gemini CLI와 BMAD 를 활용한 multi agent workflow 활용법\n- 이재규, GDG Golang Korea'
+    description: `함께하는 오픈소스 기여, 커뮤니티, 문화 만들기 with AI
+- 김인제, GDG Incheon
+
+Gemini로 코딩하기
+- 신정규, AI GDE
+
+우리 핸즈온, 행사마다 색다르게 해보면 어떨까?
+- 김대현, GDG Campus Korea
+
+Gemini CLI와 BMAD 를 활용한 multi agent workflow 활용법
+- 이재규, GDG Golang Korea`,
   },
   {
     time: '16:00-16:30',
