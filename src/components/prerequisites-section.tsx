@@ -51,6 +51,7 @@ export function PrerequisitesSection() {
             <p><b>분량:</b> 최소 8초 - 최대 2분</p>
             <p><b>마감:</b> 9월 18일(목)까지</p>
             <p className="text-yellow-400 font-bold">🏆 우수작 상품 증정!</p>
+            <p><b>진행:</b> 1일차에 영상과 함께 자기소개(GDG 챕터/GDE) 합니다.</p>
           </CardContent>
         </Card>
       </div>
