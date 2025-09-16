@@ -86,8 +86,9 @@ export function ScheduleSection() {
         <TabsContent value="day2">
           <div className="mb-6 p-4 bg-blue-900/20 border border-blue-400/30 rounded-lg text-blue-200 flex items-start gap-3">
             <Info className="h-5 w-5 mt-0.5 shrink-0" />
-            <p className="text-sm">
-              2일차 참가자 대상 GLAD Gangnam COEX Center 1인 1실을 제공 (+ 조식 포함) 체크아웃 후 모든 짐을 챙겨서 오전 9:30까지 구글 스타트업 캠퍼스로 와주세요!
+            <p className="text-sm whitespace-pre-line">
+              2일차 참가자 대상 GLAD Gangnam COEX Center 1인 1실 제공, 조식 포함.
+              체크아웃 후 모든 짐을 챙겨서 오전 9:30까지 구글 스타트업 캠퍼스로 와주세요!
             </p>
           </div>
           <ScheduleTimeline items={day2Schedule} day="day2" />
