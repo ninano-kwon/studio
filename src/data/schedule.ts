@@ -105,7 +105,16 @@ export const day2Schedule: ScheduleItem[] = [
     title: 'Firebase Studio를 활용한 미니 해커톤',
     englishTitle: 'Mini-Hackathon with Firebase Studio',
     speaker: 'GDG 운영진, GDE',
-    description: '주제: 다가오는 GDG 글로벌 캠페인(Build with AI, I/O Extended, DevFest), 행사를 준비하는 GDG 운영진으로서 혹은 행사에 연사로 참여하는 GDE로서, 도움이 되는 무언가\n조건: Firebase Studio를 포함한 구글 기술과 제품만 활용\n팀구성: \nTeam Name Community Category 1 류민호 GDE AI 1 유의선 GDG Go 1 이의석 GDG 캠퍼스 1 조새벽 GDG 인천 2 송신예 GDG 서울 2 윤창현 GDG 인천 2 이준범 GDE AI 2 김수빈 GDG 캠퍼스 3 박제창 GDG, GDE Go / Flutter 3 배필주 GDG 안드로이드 3 이정주 GDG 인천 3 천명기 GDG 부산 4 강경완 GDG 안드로이드 4 강인영 GDG 캠퍼스 4 김인제 GDG 인천 4 류기민 GDG 안드로이드 5 김나연 GDG 서울 5 김마로 GDG 인천 5 이재규 GDG Go 5 이현우 GDG 안드로이드 6 한성민 GDG, GDE Go / AI, Cloud, Go 6 한상준 GDG 인천 6 정은지 GDG 캠퍼스 6 한우석 GDG Go 7 김대현 GDG 캠퍼스 7 김수현 GDG 안드로이드 7 유광무 GDG 인천 7 정현서 GDG Go 7 고은진 GDG 판교',
+    description: `주제: 다가오는 GDG 글로벌 캠페인(Build with AI, I/O Extended, DevFest), 행사를 준비하는 GDG 운영진으로서 혹은 행사에 연사로 참여하는 GDE로서, 도움이 되는 무언가
+조건: Firebase Studio를 포함한 구글 기술과 제품만 활용
+팀구성: 
+Team 1: 류민호 (GDE AI), 유의선 (GDG Go), 이의석 (GDG 캠퍼스), 조새벽 (GDG 인천)
+Team 2: 송신예 (GDG 서울), 윤창현 (GDG 인천), 이준범 (GDE AI), 김수빈 (GDG 캠퍼스)
+Team 3: 박제창 (GDG, GDE Go/Flutter), 배필주 (GDG 안드로이드), 이정주 (GDG 인천), 천명기 (GDG 부산)
+Team 4: 강경완 (GDG 안드로이드), 강인영 (GDG 캠퍼스), 김인제 (GDG 인천), 류기민 (GDG 안드로이드)
+Team 5: 김나연 (GDG 서울), 김마로 (GDG 인천), 이재규 (GDG Go), 이현우 (GDG 안드로이드)
+Team 6: 한성민 (GDG, GDE Go/AI, Cloud, Go), 한상준 (GDG 인천), 정은지 (GDG 캠퍼스), 한우석 (GDG Go)
+Team 7: 김대현 (GDG 캠퍼스), 김수현 (GDG 안드로이드), 유광무 (GDG 인천), 정현서 (GDG Go), 고은진 (GDG 판교)`,
   },
   { time: '12:00-13:00', title: '최종 발표', englishTitle: 'Final Presentations' },
   { time: '13:00-14:00', title: '심사', englishTitle: 'Judging' },
