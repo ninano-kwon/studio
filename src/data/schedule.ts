@@ -49,19 +49,15 @@ export const day1Schedule: ScheduleItem[] = [
     title: 'GDG 운영진, GDE의 Lightning Talks',
     englishTitle: 'Lightning Talks from GDG Organizers & GDEs',
     speaker: 'GDG 운영진, GDE',
-    description: `함께하는 오픈소스 기여, 커뮤니티, 문화 만들기 with AI
-- 김인제, GDG Incheon
+    description: `함께하는 오픈소스 기여, 커뮤니티, 문화 만들기 with AI - 김인제, GDG Incheon
 누구나 원하는 오픈소스에 기여할 수 있게 도와주는 오픈소스 기여모임을 2년간 9기째 운영하며 500명 넘는 분들의 기여를 도와 천개 넘는 PR을 함께 만들고 국내 기여 문화를 만들어가는 이야기
 
-Gemini로 코딩하기
-- 신정규, AI GDE
+Gemini로 코딩하기 - 신정규, AI GDE
 
-우리 핸즈온, 행사마다 색다르게 해보면 어떨까?
-- 김대현, GDG Campus Korea
+우리 핸즈온, 행사마다 색다르게 해보면 어떨까? - 김대현, GDG Campus Korea
 보통, 핸즈온에서는 새로운 기술, 기능을 배우고 해본다는 내용에 초점이 맞춰져 있다고 생각합니다. 하지만 행사 컨셉과 참가자분들의 특성에 맞춰 핸즈온을 색다르게 기획하고 준비했던 GDG Campus Korea의 여러 사례들에 대해서 공유드리고자 합니다.
 
-Gemini CLI와 BMAD 를 활용한 multi agent workflow 활용법
-- 이재규, GDG Golang Korea
+Gemini CLI와 BMAD 를 활용한 multi agent workflow 활용법 - 이재규, GDG Golang Korea
 두 개의 인터페이스, 하나의 강력한 모델. Gemini의 강력한 두 가지 인터페이스(Gemini Gem 웹 UI와 Gemini CLI)를 BMad 프레임워크와 결합하여, 아이디어 구상부터 코드 구현까지의 전체 개발 과정을 혁신하는 과정을 소개합니다.`,
   },
   {
