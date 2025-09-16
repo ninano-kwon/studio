@@ -2,7 +2,6 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { day1Schedule, day2Schedule } from '@/data/schedule';
 import type { ScheduleItem } from '@/data/schedule';
 import { Clock, User } from 'lucide-react';
-import Image from 'next/image';
 
 const ScheduleTimeline = ({ items, day }: { items: ScheduleItem[], day: string }) => (
   <div className="space-y-4">
@@ -20,18 +19,7 @@ const ScheduleTimeline = ({ items, day }: { items: ScheduleItem[], day: string }
         </div>
         {item.speaker && (
             <div className="col-span-4 md:col-span-1 text-sm text-muted-foreground flex flex-row-reverse md:flex-col items-center justify-start md:justify-center gap-2 mt-2 md:mt-0 text-right md:text-center ml-auto">
-              {item.speakerImage ? (
-                <Image
-                  src={item.speakerImage}
-                  alt={item.speaker}
-                  width={40}
-                  height={40}
-                  className="rounded-full"
-                  data-ai-hint="speaker photo"
-                />
-              ) : (
-                <User className="h-6 w-6 md:h-8 md:w-8" />
-              )}
+              <User className="h-6 w-6 md:h-8 md:w-8" />
               <span>{item.speaker}</span>
             </div>
           )}
