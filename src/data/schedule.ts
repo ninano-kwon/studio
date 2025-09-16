@@ -105,6 +105,7 @@ export const day2Schedule: ScheduleItem[] = [
     title: 'Firebase Studio를 활용한 미니 해커톤',
     englishTitle: 'Mini-Hackathon with Firebase Studio',
     speaker: 'GDG 운영진, GDE',
+    description: '주제: 다가오는 GDG 글로벌 캠페인(Build with AI, I/O Extended, DevFest), 행사를 준비하는 GDG 운영진으로서 혹은 행사에 연사로 참여하는 GDE로서, 도움이 되는 무언가를 만들어보자!\n조건: Firebase Studio를 포함한 구글 기술과 제품만 활용',
   },
   { time: '12:00-13:00', title: '최종 발표', englishTitle: 'Final Presentations' },
   { time: '13:00-14:00', title: '심사', englishTitle: 'Judging' },
