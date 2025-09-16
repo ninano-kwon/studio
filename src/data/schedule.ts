@@ -176,7 +176,7 @@ export const day2Schedule: ScheduleItem[] = [
       {
         name: 'Team 6',
         members: [
-          { name: '한성민', community: 'GDG, GDE Go/AI, Cloud, Go' },
+          { name: '한성민', community: 'AI, Cloud, Go GDE, GDG 고 언어' },
           { name: '한상준', community: 'GDG 인천' },
           { name: '정은지', community: 'GDG 캠퍼스' },
           { name: '한우석', community: 'GDG 고 언어' },
