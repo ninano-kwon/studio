@@ -2,7 +2,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { day1Schedule, day2Schedule } from '@/data/schedule';
 import type { ScheduleItem } from '@/data/schedule';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
-import { Clock } from 'lucide-react';
+import { Clock, Info } from 'lucide-react';
 
 const ScheduleTimeline = ({ items, day }: { items: ScheduleItem[]; day: string }) => (
   <Accordion type="single" collapsible className="w-full">
@@ -84,6 +84,12 @@ export function ScheduleSection() {
           <ScheduleTimeline items={day1Schedule} day="day1" />
         </TabsContent>
         <TabsContent value="day2">
+          <div className="mb-6 p-4 bg-blue-900/20 border border-blue-400/30 rounded-lg text-blue-200 flex items-start gap-3">
+            <Info className="h-5 w-5 mt-0.5 shrink-0" />
+            <p className="text-sm">
+              2일차 참가자 대상 GLAD Gangnam COEX Center 1인 1실을 제공 (+ 조식 포함) 체크아웃 후 모든 짐을 챙겨서 오전 9:30까지 구글 스타트업 캠퍼스로 와주세요!
+            </p>
+          </div>
           <ScheduleTimeline items={day2Schedule} day="day2" />
         </TabsContent>
       </Tabs>
