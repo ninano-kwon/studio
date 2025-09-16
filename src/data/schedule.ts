@@ -64,7 +64,7 @@ export const day1Schedule: ScheduleItem[] = [
       },
       {
         talkTitle: '우리 핸즈온, 행사마다 색다르게 해보면 어떨까? - 김대현, GDG Campus Korea',
-        talkDescription: '보통, 핸즈온에서는 새로운 기술, 기능을 배우고 해본다는 내용에 초점이 맞춰져 있다고 생각합니다. 하지만 행사 컨셉과 참가자분들의 특성에 맞춰 핸즈온을 색다르게 기획하고 준비했던 GDG Campus Korea의 여러 사례들에 대해서 공유드리고자 합니다.',
+        talkDescription: '대부분의 핸즈온에서는 새로운 기술을 배우고 실습해보는 것에 초점이 맞춰져 있습니다. 하지만 행사 컨셉과 참가자 특성에 맞게 핸즈온을 색다르게 기획하고 준비했던 GDG Campus Korea의 사례들을 공유합니다.',
       },
       {
         talkTitle: 'Gemini CLI와 BMAD 를 활용한 multi agent workflow 활용법 - 이재규, GDG Golang Korea',
