@@ -104,7 +104,14 @@ export const day1Schedule: ScheduleItem[] = [
     title: 'DevFest 2025 계획 공유 | Alessandro와 함께하는 오피스아워',
     englishTitle: 'Sharing DevFest 2025 Plans | Office Hour with Alessandro',
     speaker: 'GDG 운영진, GDE',
-    description: 'GDG 챕터별로 모여서 DevFest 2025 계획을 세우고 공유합니다.\n\n오피스 아워 사전 신청자는 행사장 한쪽에서 진행되는 Alessandro와의 오피스아워에 참여합니다.\n\n그룹 1 : 이준범, 박제창\n그룹 2 : 김수빈, 이재규\n그룹 3 : 고영민, 김마로, 조새벽\n그룹 4 : 최가인, 윤지원',
+    description: `GDG 챕터별로 모여서 DevFest 2025 계획을 세우고 공유합니다.
+
+오피스 아워 사전 신청자는 행사장 한쪽에서 진행되는 Alessandro와의 오피스아워에 참여합니다.
+
+그룹 1 : 이준범, 박제창
+그룹 2 : 김수빈, 이재규
+그룹 3 : 고영민, 김마로, 조새벽
+그룹 4 : 최가인, 윤지원`,
   },
   { time: '18:00-18:30', title: '럭키드로우', englishTitle: 'Lucky Draw' },
   { time: '18:30-21:30', title: '저녁식사 및 네트워킹', englishTitle: 'Dinner & Networking' },
@@ -142,7 +149,7 @@ export const day2Schedule: ScheduleItem[] = [
       {
         name: 'Team 3',
         members: [
-          { name: '박제창', community: 'GDG, GDE Go/Flutter' },
+          { name: '박제창', community: 'Flutter GDE, GDG 고 언어' },
           { name: '배필주', community: 'GDG 안드로이드' },
           { name: '이정주', community: 'GDG 인천' },
           { name: '천명기', community: 'GDG 부산' },
