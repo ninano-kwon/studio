@@ -27,7 +27,7 @@ export const day1Schedule: ScheduleItem[] = [
     title: 'AI시대, 인공지능을 활용한 마케팅 전략',
     englishTitle: 'Marketing Strategies Using Artificial Intelligence in the AI Era',
     speaker: '주은실',
-    description: '글로벌 캠페인 행사를 홍보하는 GDG 운영진들에게 도움이 될 세션! AI를 활용하여 커뮤니티 홍보 및 이벤트 마케팅을 효과적으로 수행하는 전략을 배웁니다. 마케팅 전반에 AI를 적용하는 방법을 알아봅니다.',
+    description: 'AI를 활용하여 커뮤니티 홍보 및 이벤트 마케팅을 효과적으로 수행하는 전략을 배웁니다. 마케팅 전반에 AI를 적용하는 방법을 알아봅니다.',
   },
   {
     time: '11:45-12:45',
@@ -49,6 +49,7 @@ export const day1Schedule: ScheduleItem[] = [
     title: 'GDG 운영진, GDE의 Lightning Talks',
     englishTitle: 'Lightning Talks from GDG Organizers & GDEs',
     speaker: 'GDG 운영진, GDE',
+    description: '[Lightning Talks] 함께하는 오픈소스 기여, 커뮤니티, 문화 만들기 with AI\n- 김인제, GDG Incheon\n\n[Lightning Talks] Gemini로 코딩하기\n- 신정규, AI GDE\n\n[Lightning Talks] 우리 핸즈온, 행사마다 색다르게 해보면 어떨까?\n- 김대현, GDG Campus Korea\n\n[Lightning Talks] Gemini CLI와 BMAD 를 활용한 multi agent workflow 활용법\n- 이재규, GDG Golang Korea'
   },
   {
     time: '16:00-16:30',

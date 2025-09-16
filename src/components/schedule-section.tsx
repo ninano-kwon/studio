@@ -28,7 +28,7 @@ const ScheduleTimeline = ({ items, day }: { items: ScheduleItem[]; day: string }
               )}
             </AccordionTrigger>
             <AccordionContent className="pb-4 px-4">
-              <p className="text-muted-foreground pl-10">{item.description}</p>
+              <p className="text-muted-foreground pl-10 whitespace-pre-line">{item.description}</p>
             </AccordionContent>
           </AccordionItem>
         ) : (
