@@ -33,7 +33,7 @@ export function LocationSection() {
             <div className="mt-6 pt-6 border-t">
               <h3 className="font-semibold text-foreground mb-2">교통 및 숙박 안내</h3>
               <ul className="list-disc list-inside text-muted-foreground space-y-2">
-                <li>지방 참가자 교통편 지원 (사전 신청자 대상)</li>
+                <li>지방 참가자 교통편 지원</li>
                 <li>사전 신청자 숙박 지원 (GLAD 강남 코엑스 센터)</li>
                 <li className="font-bold text-destructive flex items-center gap-2">
                   <ParkingCircleOff className="h-4 w-4" />
