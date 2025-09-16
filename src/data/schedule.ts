@@ -18,7 +18,7 @@ export const day1Schedule: ScheduleItem[] = [
     time: '10:10-10:25',
     title: '함께 성장하기: AI 시대에 커뮤니티가 개발자 성장을 이끄는 법',
     englishTitle: 'Growing Together: How Communities Lead Developer Growth in the AI Era',
-    speaker: '송지효',
+    speaker: '크리스틴 송',
     description: 'AI가 개발 생태계를 빠르게 변화시키는 지금, 개발자 커뮤니티의 역할과 방향성에 대해 논의합니다. 커뮤니티가 어떻게 개발자들의 성장을 지원하고, 함께 성장하는 문화를 만들 수 있는지에 대한 인사이트를 공유합니다.',
   },
   {
