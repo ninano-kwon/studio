@@ -77,7 +77,7 @@ export const day1Schedule: ScheduleItem[] = [
     title: '실전 AI 커뮤니티 워크숍 운영 가이드',
     englishTitle: 'A Practical Guide to Running an AI Community Workshop',
     speaker: 'Thu Ya Kyaw',
-    description: '자신의 커뮤니티에서 성공적으로 AI 워크숍을 기획하고 운영하는 노하우를 공유합니다. 워크숍 주제 선정부터, 콘텐츠 준비, 홍보, 진행까지 실질적인 팁을 얻어 가세요.',
+    description: '구글 AI 기술 핸즈온 워크숍을 기획하고 진행한 경험을 공유합니다. 이번 세션에서는 각 플랫폼의 강점과 약점을 중심으로 Qwiklabs와 Codelabs의 차이점을 명확하게 설명합니다. 또한 OnRamp 크레딧과 일반 Skill Boost 학습 크레딧을 상세하게 비교 분석해 드립니다. 마지막으로, 라이브 워크숍에서 구글 클라우드 크레딧을 사용할 때 발생할 수 있는 일반적인 문제점들과 그에 대한 실용적인 해결 방안을 다룰 예정입니다.',
   },
   {
     time: '16:30-17:00',
