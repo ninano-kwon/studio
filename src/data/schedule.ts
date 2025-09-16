@@ -32,7 +32,7 @@ export const day1Schedule: ScheduleItem[] = [
     time: '11:15-11:45',
     title: 'AI시대, 인공지능을 활용한 마케팅 전략',
     englishTitle: 'Marketing Strategies Using Artificial Intelligence in the AI Era',
-    speaker: '주은실',
+    speaker: '주은정',
     description: 'AI를 활용하여 커뮤니티 홍보 및 이벤트 마케팅을 효과적으로 수행하는 전략을 배웁니다. 마케팅 전반에 AI를 적용하는 방법을 알아봅니다.',
   },
   {
@@ -99,7 +99,7 @@ export const day1Schedule: ScheduleItem[] = [
 ];
 
 export const day2Schedule: ScheduleItem[] = [
-  { time: '09:30-10:00', title: '환영합니다!', englishTitle: 'Welcome!', speaker: '권나현, 송지효' },
+  { time: '09:30-10:00', title: '환영합니다!', englishTitle: 'Welcome!', speaker: '권나현, 크리스틴 송' },
   {
     time: '10:00-12:00',
     title: 'Firebase Studio를 활용한 미니 해커톤',
