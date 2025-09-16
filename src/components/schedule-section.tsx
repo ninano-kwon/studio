@@ -28,15 +28,15 @@ const ScheduleTimeline = ({ items, day }: { items: ScheduleItem[]; day: string }
               )}
             </AccordionTrigger>
             <AccordionContent className="pb-4 px-4">
-              <div className="text-muted-foreground pl-10 whitespace-pre-line">
+              <div className="text-muted-foreground pl-10">
                 {typeof item.description === 'string' ? (
-                  <p>{item.description}</p>
+                  <p className="whitespace-pre-line">{item.description}</p>
                 ) : (
                   <div className="space-y-4">
                     {item.description.map((talk, i) => (
                       <div key={i}>
                         <p className="font-bold text-foreground">{talk.talkTitle}</p>
-                        {talk.talkDescription && <p className="mt-1">{talk.talkDescription}</p>}
+                        {talk.talkDescription && <p className="mt-1 whitespace-pre-line">{talk.talkDescription}</p>}
                       </div>
                     ))}
                   </div>
@@ -77,8 +77,8 @@ export function ScheduleSection() {
       </div>
       <Tabs defaultValue="day1" className="w-full">
         <TabsList className="grid w-full grid-cols-2 mb-8">
-          <TabsTrigger value="day1">Day 1: 9월 20일 (토)</TabsTrigger>
-          <TabsTrigger value="day2">Day 2: 9월 21일 (일)</TabsTrigger>
+          <TabsTrigger value="day1" className="data-[state=active]:text-blue-300">Day 1: 9월 20일 (토)</TabsTrigger>
+          <TabsTrigger value="day2" className="data-[state=active]:text-green-300">Day 2: 9월 21일 (일)</TabsTrigger>
         </TabsList>
         <TabsContent value="day1">
           <ScheduleTimeline items={day1Schedule} day="day1" />
