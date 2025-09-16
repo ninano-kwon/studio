@@ -3,6 +3,7 @@ export type ScheduleItem = {
   title: string;
   englishTitle?: string;
   speaker?: string;
+  speakerImage?: string;
   description?: string;
 };
 
@@ -13,6 +14,7 @@ export const day1Schedule: ScheduleItem[] = [
     title: '함께 성장하기: AI 시대에 커뮤니티가 개발자 성장을 이끄는 법',
     englishTitle: 'Growing Together: How Communities Lead Developer Growth in the AI Era',
     speaker: '송지효',
+    speakerImage: 'https://picsum.photos/seed/speaker1/40/40'
   },
   { time: '10:25-11:15', title: 'Veo3를 활용한 자기소개하기', englishTitle: 'Self-Introduction with Veo3', speaker: 'GDG 운영진, GDE' },
   {
@@ -20,12 +22,14 @@ export const day1Schedule: ScheduleItem[] = [
     title: 'AI시대, 인공지능을 활용한 마케팅 전략',
     englishTitle: 'Marketing Strategies Using Artificial Intelligence in the AI Era',
     speaker: '주은실',
+    speakerImage: 'https://picsum.photos/seed/speaker2/40/40'
   },
   {
     time: '11:45-12:45',
     title: '구글 커뮤니티 플랫폼으로 영향력 확장하기',
     englishTitle: 'Expanding Your Impact with the Google Community Platform',
     speaker: 'Alessandro Palmieri',
+    speakerImage: 'https://picsum.photos/seed/speaker3/40/40'
   },
   { time: '12:45-14:00', title: '점심시간', englishTitle: 'Lunch Time' },
   {
@@ -33,6 +37,7 @@ export const day1Schedule: ScheduleItem[] = [
     title: '모두를 위한 AI 플레이북: Gemini와 Gemma 쉽게 시작하기',
     englishTitle: 'The AI Playbook for Everyone: Getting Started Easily with Gemini and Gemma',
     speaker: '박주성',
+    speakerImage: 'https://picsum.photos/seed/speaker4/40/40'
   },
   { time: '15:00-16:00', title: 'GDG 운영진, GDE의 Lightning Talks', englishTitle: 'Lightning Talks from GDG Organizers & GDEs', speaker: 'GDG 운영진, GDE' },
   {
@@ -40,6 +45,7 @@ export const day1Schedule: ScheduleItem[] = [
     title: '실전 AI 커뮤니티 워크숍 운영 가이드',
     englishTitle: 'A Practical Guide to Running an AI Community Workshop',
     speaker: 'Thu Ya Kyaw',
+    speakerImage: 'https://picsum.photos/seed/speaker5/40/40'
   },
   { time: '16:30-17:00', title: 'DevFest 2025 워크샵', englishTitle: 'DevFest 2025 Workshop', speaker: '권혜현' },
   { time: '17:00-18:00', title: 'DevFest 2025 계획 공유', englishTitle: 'Sharing DevFest 2025 Plans', speaker: 'GDG 운영진, GDE' },
