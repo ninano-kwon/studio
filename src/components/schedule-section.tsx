@@ -13,6 +13,9 @@ const ScheduleTimeline = ({ items, day }: { items: ScheduleItem[], day: string }
         </div>
         <div className="col-span-3 md:col-span-4 text-base md:text-lg">
           <p>{item.title}</p>
+          {item.englishTitle && (
+            <p className="text-sm text-muted-foreground">{item.englishTitle}</p>
+          )}
           {item.speaker && (
             <p className="text-sm text-muted-foreground flex items-center gap-2 mt-1">
               <User className="h-4 w-4" />
