@@ -49,7 +49,7 @@ export function PrerequisitesSection() {
             <p><b>주제:</b> 올해 DevFest 오프닝이나 홍보에서 활용 가능한 영상</p>
             <p><b>방법:</b> Flow 나 Gemini에서 Veo 3를 활용하여 GDG 챕터/GDE의 Identity가 잘 드러나는 영상 제작</p>
             <p><b>분량:</b> 최소 8초 - 최대 2분</p>
-            <p><b>마감:</b> 9월 18일(목)까지 커뮤니티 매니저에게 제출하세요.</p>
+            <p><b>마감:</b> 9월 18일(목)까지 커뮤니티 매니저에게 제출</p>
             <p><b>진행:</b> 1일차에 영상과 함께 자기소개(GDG 챕터/GDE) 합니다.</p>
             <p className="text-yellow-400 font-bold">🏆 우수작 상품 증정!</p>
           </CardContent>
