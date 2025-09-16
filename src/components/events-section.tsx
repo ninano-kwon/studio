@@ -20,7 +20,7 @@ export function EventsSection() {
             <div className="text-sm text-muted-foreground space-y-2">
               <p><b>주제:</b> Build with AI, I/O Extended, DevFest 등 GDG 글로벌 캠페인 연계</p>
               <p><b>조건:</b> Firebase Studio를 포함한 구글 기술 및 제품만 활용</p>
-              <p><b>팀 구성:</b> 4인 1조 랜덤 구성</p>
+              <p><b>팀 구성:</b> 4인 1조 랜덤 구성, 위 시간표에서 자세한 팀 구성 확인 가능</p>
             </div>
             <div className="mt-6">
               <h3 className="font-bold flex items-center gap-2 mb-2"><Award className="h-5 w-5" />상품</h3>
