@@ -28,7 +28,20 @@ const ScheduleTimeline = ({ items, day }: { items: ScheduleItem[]; day: string }
               )}
             </AccordionTrigger>
             <AccordionContent className="pb-4 px-4">
-              <p className="text-muted-foreground pl-10 whitespace-pre-line">{item.description}</p>
+              <div className="text-muted-foreground pl-10 whitespace-pre-line">
+                {typeof item.description === 'string' ? (
+                  <p>{item.description}</p>
+                ) : (
+                  <div className="space-y-4">
+                    {item.description.map((talk, i) => (
+                      <div key={i}>
+                        <p className="font-bold text-foreground">{talk.talkTitle}</p>
+                        {talk.talkDescription && <p className="mt-1">{talk.talkDescription}</p>}
+                      </div>
+                    ))}
+                  </div>
+                )}
+              </div>
             </AccordionContent>
           </AccordionItem>
         ) : (
