@@ -84,7 +84,7 @@ export const day1Schedule: ScheduleItem[] = [
     time: '16:30-17:00',
     title: 'DevFest 2025 워크샵',
     englishTitle: 'DevFest 2025 Workshop',
-    speaker: '권혜현',
+    speaker: '권나현',
     description: '다가오는 DevFest 2025를 성공적으로 개최하기 위한 워크숍입니다. 각 챕터의 경험을 공유하고, 혁신적인 아이디어를 함께 논의하여 더 나은 DevFest를 만듭니다.',
   },
   {
