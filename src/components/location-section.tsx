@@ -37,7 +37,7 @@ export function LocationSection() {
                 <li>사전 신청자 숙박 지원 (GLAD 강남 코엑스 센터)</li>
                 <li className="font-bold text-destructive flex items-center gap-2">
                   <ParkingCircleOff className="h-4 w-4" />
-                  행사 장소 주차비는 지원되지 않습니다.
+                  구글 스타트업 캠퍼스 주차비는 지원되지 않습니다.
                 </li>
               </ul>
             </div>
