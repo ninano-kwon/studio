@@ -32,7 +32,18 @@ export function ScheduleSection() {
         <h2 className="text-4xl font-bold">전체 시간표</h2>
         <p className="text-muted-foreground mt-2">행사 당일 진행될 세션들을 확인하세요.</p>
       </div>
-      <ScheduleTimeline items={day1Schedule} day="day1" />
+      <Tabs defaultValue="day1" className="w-full">
+        <TabsList className="grid w-full grid-cols-2 mb-8">
+          <TabsTrigger value="day1">Day 1: 9월 20일 (토)</TabsTrigger>
+          <TabsTrigger value="day2">Day 2: 9월 21일 (일)</TabsTrigger>
+        </TabsList>
+        <TabsContent value="day1">
+          <ScheduleTimeline items={day1Schedule} day="day1" />
+        </TabsContent>
+        <TabsContent value="day2">
+          <ScheduleTimeline items={day2Schedule} day="day2" />
+        </TabsContent>
+      </Tabs>
     </section>
   );
 }

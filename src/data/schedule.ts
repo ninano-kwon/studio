@@ -21,4 +21,10 @@ export const day1Schedule: ScheduleItem[] = [
   { time: '18:30-21:30', title: '저녁식사 및 네트워킹' },
 ];
 
-export const day2Schedule: ScheduleItem[] = [];
+export const day2Schedule: ScheduleItem[] = [
+  { time: '09:30-10:00', title: '환영합니다!', speaker: '권나현, 송지현' },
+  { time: '10:00-12:00', title: 'Firebase Studio를 활용한 미니 해커톤', speaker: 'GDG 운영진, GDE' },
+  { time: '12:00-13:00', title: '최종 발표' },
+  { time: '13:00-14:00', title: '심사' },
+  { time: '14:00-14:30', title: '시상식 및 클로징' },
+];
