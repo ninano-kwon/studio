@@ -107,7 +107,6 @@ export const day1Schedule: ScheduleItem[] = [
     description: `GDG 챕터별로 모여서 DevFest 2025 계획을 세우고 공유합니다.
 
 오피스 아워 사전 신청자는 행사장 한쪽에서 진행되는 Alessandro와의 오피스아워에 참여합니다.
-
 주제 : Platforms (Bevy, Advocu, Work Trips/Travel Program) and Google Developer Programs
 
 그룹 1 : 이준범, 박제창
