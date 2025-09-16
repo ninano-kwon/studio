@@ -45,7 +45,7 @@ export function EventsSection() {
             <div className="mt-6">
               <h3 className="font-bold flex items-center gap-2 mb-2"><Award className="h-5 w-5" />추가 기념품</h3>
               <p className="text-muted-foreground">⚡ 라이트닝 토크 발표자</p>
-              <p className="text-muted-foreground">🎁 깜짝 선물이 준비되어 있습니다!</p>
+              <p className="text-muted-foreground">🎁 럭키드로우</p>
             </div>
           </CardContent>
         </Card>
