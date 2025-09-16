@@ -47,7 +47,7 @@ export const day1Schedule: ScheduleItem[] = [
     time: '14:00-15:00',
     title: '모두를 위한 AI 플레이북: Gemini와 Gemma 쉽게 시작하기',
     englishTitle: 'The AI Playbook for Everyone: Getting Started Easily with Gemini and Gemma',
-    speaker: '박주성',
+    speaker: '지주영',
     description: '모두를 위한 AI 활용 가이드. 각자의 영역에서 AI의 잠재력을 최대한 끌어내는 실용적인 노하우를 공유합니다. Gemini와 Gemma를 시작으로 아이디어 탐색을 위한 AI Studio 사용법을 배우고, 이어지는 Hands-on 라이브 데모를 통해 AI Studio를 직접 체험해 보세요. ',
   },
   {
