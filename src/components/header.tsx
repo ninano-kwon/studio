@@ -15,7 +15,7 @@ export function Header() {
     <header className="bg-background/80 backdrop-blur-sm sticky top-0 z-50 border-b">
       <div className="container mx-auto px-6 h-16 flex justify-between items-center">
         <a href="#" className="text-xl font-bold text-foreground">
-          25 KR GDG/GDE Summit
+          '25 KR GDG/GDE Summit
         </a>
         <nav className="hidden md:flex space-x-6 items-center">
           {navLinks.map((link) => (
