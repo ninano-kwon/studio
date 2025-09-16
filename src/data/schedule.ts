@@ -13,7 +13,7 @@ export type ScheduleItem = {
 };
 
 export const day1Schedule: ScheduleItem[] = [
-  { time: '10:00-10:10', title: '환영합니다!', englishTitle: 'Welcome!', speaker: '권혜현, 송지효' },
+  { time: '10:00-10:10', title: '환영합니다!', englishTitle: 'Welcome!', speaker: '권나현, 크리스틴 송' },
   {
     time: '10:10-10:25',
     title: '함께 성장하기: AI 시대에 커뮤니티가 개발자 성장을 이끄는 법',
@@ -99,7 +99,7 @@ export const day1Schedule: ScheduleItem[] = [
 ];
 
 export const day2Schedule: ScheduleItem[] = [
-  { time: '09:30-10:00', title: '환영합니다!', englishTitle: 'Welcome!', speaker: '권나현, 송지현' },
+  { time: '09:30-10:00', title: '환영합니다!', englishTitle: 'Welcome!', speaker: '권나현, 송지효' },
   {
     time: '10:00-12:00',
     title: 'Firebase Studio를 활용한 미니 해커톤',
