@@ -88,8 +88,8 @@ export const day1Schedule: ScheduleItem[] = [
   },
   {
     time: '17:00-18:00',
-    title: 'DevFest 2025 계획 공유',
-    englishTitle: 'Sharing DevFest 2025 Plans',
+    title: 'DevFest 2025 계획 공유 | Alessandro와 함께하는 오피스아워',
+    englishTitle: 'Sharing DevFest 2025 Plans | Office Hour with Alessandro',
     speaker: 'GDG 운영진, GDE',
   },
   { time: '18:00-18:30', title: '럭키드로우', englishTitle: 'Lucky Draw' },
