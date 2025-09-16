@@ -4,12 +4,24 @@ export type LightningTalk = {
   talkDescription?: string;
 };
 
+export type TeamMember = {
+  name: string;
+  community: string;
+};
+
+export type Team = {
+  name: string;
+  members: TeamMember[];
+};
+
 export type ScheduleItem = {
+  id?: string;
   time: string;
   title: string;
   englishTitle?: string;
   speaker?: string;
   description?: string | LightningTalk[];
+  teams?: Team[];
 };
 
 export const day1Schedule: ScheduleItem[] = [
@@ -101,20 +113,79 @@ export const day1Schedule: ScheduleItem[] = [
 export const day2Schedule: ScheduleItem[] = [
   { time: '09:30-10:00', title: '환영합니다!', englishTitle: 'Welcome!', speaker: '권나현, 크리스틴 송' },
   {
+    id: 'hackathon',
     time: '10:00-12:00',
     title: 'Firebase Studio를 활용한 미니 해커톤',
     englishTitle: 'Mini-Hackathon with Firebase Studio',
     speaker: 'GDG 운영진, GDE',
     description: `주제: 다가오는 GDG 글로벌 캠페인(Build with AI, I/O Extended, DevFest), 행사를 준비하는 GDG 운영진으로서 혹은 행사에 연사로 참여하는 GDE로서, 도움이 되는 무언가
-조건: Firebase Studio를 포함한 구글 기술과 제품만 활용
-팀구성: 
-Team 1: 류민호 (AI GDE), 유의선 (GDG 고 언어), 이의석 (GDG 캠퍼스), 조새벽 (GDG 인천)
-Team 2: 송신예 (GDG 서울), 윤창현 (GDG 인천), 이준범 (AI GDE), 김수빈 (GDG 캠퍼스)
-Team 3: 박제창 (GDG, GDE Go/Flutter), 배필주 (GDG 안드로이드), 이정주 (GDG 인천), 천명기 (GDG 부산)
-Team 4: 강경완 (GDG 안드로이드), 강인영 (GDG 캠퍼스), 김인제 (GDG 인천), 류기민 (GDG 안드로이드)
-Team 5: 김나연 (GDG 서울), 김마로 (GDG 인천), 이재규 (GDG 고 언어), 이현우 (GDG 안드로이드)
-Team 6: 한성민 (GDG, GDE Go/AI, Cloud, Go), 한상준 (GDG 인천), 정은지 (GDG 캠퍼스), 한우석 (GDG 고 언어)
-Team 7: 김대현 (GDG 캠퍼스), 김수현 (GDG 안드로이드), 유광무 (GDG 인천), 정현서 (GDG 고 언어), 고은진 (GDG 판교)`,
+조건: Firebase Studio를 포함한 구글 기술과 제품만 활용`,
+    teams: [
+      {
+        name: 'Team 1',
+        members: [
+          { name: '류민호', community: 'AI GDE' },
+          { name: '유의선', community: 'GDG 고 언어' },
+          { name: '이의석', community: 'GDG 캠퍼스' },
+          { name: '조새벽', community: 'GDG 인천' },
+        ],
+      },
+      {
+        name: 'Team 2',
+        members: [
+          { name: '송신예', community: 'GDG 서울' },
+          { name: '윤창현', community: 'GDG 인천' },
+          { name: '이준범', community: 'AI GDE' },
+          { name: '김수빈', community: 'GDG 캠퍼스' },
+        ],
+      },
+      {
+        name: 'Team 3',
+        members: [
+          { name: '박제창', community: 'GDG, GDE Go/Flutter' },
+          { name: '배필주', community: 'GDG 안드로이드' },
+          { name: '이정주', community: 'GDG 인천' },
+          { name: '천명기', community: 'GDG 부산' },
+        ],
+      },
+      {
+        name: 'Team 4',
+        members: [
+          { name: '강경완', community: 'GDG 안드로이드' },
+          { name: '강인영', community: 'GDG 캠퍼스' },
+          { name: '김인제', community: 'GDG 인천' },
+          { name: '류기민', community: 'GDG 안드로이드' },
+        ],
+      },
+      {
+        name: 'Team 5',
+        members: [
+          { name: '김나연', community: 'GDG 서울' },
+          { name: '김마로', community: 'GDG 인천' },
+          { name: '이재규', community: 'GDG 고 언어' },
+          { name: '이현우', community: 'GDG 안드로이드' },
+        ],
+      },
+      {
+        name: 'Team 6',
+        members: [
+          { name: '한성민', community: 'GDG, GDE Go/AI, Cloud, Go' },
+          { name: '한상준', community: 'GDG 인천' },
+          { name: '정은지', community: 'GDG 캠퍼스' },
+          { name: '한우석', community: 'GDG 고 언어' },
+        ],
+      },
+      {
+        name: 'Team 7',
+        members: [
+          { name: '김대현', community: 'GDG 캠퍼스' },
+          { name: '김수현', community: 'GDG 안드로이드' },
+          { name: '유광무', community: 'GDG 인천' },
+          { name: '정현서', community: 'GDG 고 언어' },
+          { name: '고은진', community: 'GDG 판교' },
+        ],
+      },
+    ],
   },
   { time: '12:00-13:00', title: '최종 발표', englishTitle: 'Final Presentations' },
   { time: '13:00-14:00', title: '심사', englishTitle: 'Judging' },

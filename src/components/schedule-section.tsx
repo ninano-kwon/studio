@@ -3,6 +3,7 @@ import { day1Schedule, day2Schedule } from '@/data/schedule';
 import type { ScheduleItem } from '@/data/schedule';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 import { Clock, Info } from 'lucide-react';
+import { HackathonTeams } from './hackathon-teams';
 
 const ScheduleTimeline = ({ items, day }: { items: ScheduleItem[]; day: string }) => (
   <Accordion type="single" collapsible className="w-full">
@@ -28,8 +29,10 @@ const ScheduleTimeline = ({ items, day }: { items: ScheduleItem[]; day: string }
               )}
             </AccordionTrigger>
             <AccordionContent className="pb-4 px-4">
-              <div className="text-muted-foreground pl-10">
-                {typeof item.description === 'string' ? (
+              <div className="text-muted-foreground pl-10 space-y-4">
+                {item.id === 'hackathon' && item.teams ? (
+                  <HackathonTeams teams={item.teams} />
+                ) : typeof item.description === 'string' ? (
                   <p className="whitespace-pre-line">{item.description}</p>
                 ) : (
                   <div className="space-y-4">
