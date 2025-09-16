@@ -109,6 +109,7 @@ export const day1Schedule: ScheduleItem[] = [
 오피스 아워 사전 신청자는 행사장 한쪽에서 진행되는 Alessandro와의 오피스아워에 참여합니다.
 
 주제 : Platforms (Bevy, Advocu, Work Trips/Travel Program) and Google Developer Programs
+
 그룹 1 : 이준범, 박제창
 그룹 2 : 김수빈, 이재규
 그룹 3 : 고영민, 김마로, 조새벽
