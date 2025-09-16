@@ -43,6 +43,10 @@ export function EventsSection() {
               <p className="text-muted-foreground">🎬 베스트 Veo 영상</p>
               <p className="text-muted-foreground">⚡ 라이트닝 토크 발표자</p>
             </div>
+            <div className="mt-6">
+              <h3 className="font-bold flex items-center gap-2 mb-2"><Award className="h-5 w-5" />추가 기념품</h3>
+              <p className="text-muted-foreground">🎁 깜짝 선물이 준비되어 있습니다!</p>
+            </div>
           </CardContent>
         </Card>
       </div>
